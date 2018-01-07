@@ -6,9 +6,10 @@ public class User {
     private String username;
     private String age;
 
-    public  User(){
+    public User() {
         super();
     }
+
     public User(int id, String username, String age) {
         super();
         this.id = id;

@@ -1,5 +1,5 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%
     pageContext.setAttribute("path", request.getContextPath());
 %>
@@ -50,11 +50,11 @@
                         <!-- <td><a  class="edit">编辑</a> <a
                              class="delete">删除</a></td> -->
                         <td>
-                            <a type="button"  href="${path}/user/getUser?id=${user.id}" class="btn btn-info btn-sm">
+                            <a type="button" href="${path}/user/getUser?id=${user.id}" class="btn btn-info btn-sm">
                                 <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                                 编辑</a>
-                            <a type="button"  href="${path}/user/delUser?id=${user.id}" class="btn btn-danger btn-sm">
-                                <span class="glyphicon glyphicon-trash" aria-hidden="true" ></span>
+                            <a type="button" href="${path}/user/delUser?id=${user.id}" class="btn btn-danger btn-sm">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
                                 删除</a>
                         </td>
                     </tr>
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-    <hr style="height:1px;border:none;border-top:1px solid #ccc;" />
+    <hr style="height:1px;border:none;border-top:1px solid #ccc;"/>
     <!-- 分页导航栏 -->
 
     <!-- 分页信息 -->

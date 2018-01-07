@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
+         pageEncoding="UTF-8" %>
 <%
     pageContext.setAttribute("path", request.getContextPath());
 %>
@@ -29,8 +29,8 @@
 <h3>
     <a href="${path }/user/userInfo">进入用户管理页</a><br/>
     <a href="${path}/page/test.html">path点击进入测试页面</a><br/>
-    <a href="page/test.html">绝对path  点击进入测试页面</a><br/>
-    <a href="test1.html">测试页面1</a><br/>
+    <a href="page/test.html">绝对path 点击进入测试页面</a><br/>
+    <a href="error.html">测试页面1</a><br/>
     <a href="www.baidu.com">百度</a><br/>
     <p>${path}123456</p>
 
