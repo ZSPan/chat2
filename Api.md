@@ -151,34 +151,34 @@ All messages are in json format.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>Timestamp</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">Without quote around the number</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>Integer</td>
+<td>Without quote around the number</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">Boolean</td>
-<td style="border: 1px solid #dfe2e5;">True/False</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>Boolean</td>
+<td>True/False</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">Double number quoted as a String</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>DoubleString</td>
+<td>Double number quoted as a String</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">LongString</td>
-<td style="border: 1px solid #dfe2e5;">Long number quoted as a String</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>LongString</td>
+<td>Long number quoted as a String</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>String</td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -196,16 +196,16 @@ All messages are in json format.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">This field is mandatory</td>
+<td>M</td>
+<td>This field is mandatory</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">This field is mandatory under certain conditions</td>
+<td>(M)</td>
+<td>This field is mandatory under certain conditions</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">This field is optional</td>
+<td>O</td>
+<td>This field is optional</td>
 </tr>
 </tbody>
 </table>
@@ -254,9 +254,9 @@ documented in each related sections.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">errorCode</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">Error code. e.g. INVALID_PASSWORD</td>
+<td>errorCode</td>
+<td>String</td>
+<td>Error code. e.g. INVALID_PASSWORD</td>
 </tr>
 </tbody>
 </table>
@@ -281,16 +281,16 @@ newest items are returned by default.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">pageNumber</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Default to 1</td>
+<td>pageNumber</td>
+<td>Integer</td>
+<td>O</td>
+<td>Default to 1</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">pageSize</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Default to 100</td>
+<td>pageSize</td>
+<td>Integer</td>
+<td>O</td>
+<td>Default to 100</td>
 </tr>
 </tbody>
 </table>
@@ -329,34 +329,34 @@ GET /api/public/instruments
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentId</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">productType</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Spot/Futures/Indexes</td>
+<td>productType</td>
+<td>String</td>
+<td>O</td>
+<td>Spot/Futures/Indexes</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">symbol</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>symbol</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">quoteCurrency</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>quoteCurrency</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">underlying</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>underlying</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -374,70 +374,70 @@ GET /api/public/instruments
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. BTCUSD</td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td>e.g. BTCUSD</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">symbol</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. BTC</td>
+<td>symbol</td>
+<td>String</td>
+<td>M</td>
+<td>e.g. BTC</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">quoteCurrency</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. USD</td>
+<td>quoteCurrency</td>
+<td>String</td>
+<td>M</td>
+<td>e.g. USD</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">productType</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Spot/Futures/Indexes</td>
+<td>productType</td>
+<td>String</td>
+<td>M</td>
+<td>Spot/Futures/Indexes</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">tickSize</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. 0.01</td>
+<td>tickSize</td>
+<td>DoubleString</td>
+<td>M</td>
+<td>e.g. 0.01</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">lotSize</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory for tradable Spot and Futures instruments e.g. 1</td>
+<td>lotSize</td>
+<td>Integer</td>
+<td>(M)</td>
+<td>Mandatory for tradable Spot and Futures instruments e.g. 1</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">minOrderSize</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory for tradable Spot and Futures instruments</td>
+<td>minOrderSize</td>
+<td>DoubleString</td>
+<td>(M)</td>
+<td>Mandatory for tradable Spot and Futures instruments</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">maxOrderSize</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory for tradable Spot and Futures instruments</td>
+<td>maxOrderSize</td>
+<td>DoubleString</td>
+<td>(M)</td>
+<td>Mandatory for tradable Spot and Futures instruments</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">expiry</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory for futures instrument</td>
+<td>expiry</td>
+<td>Timestamp</td>
+<td>(M)</td>
+<td>Mandatory for futures instrument</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">underlying</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory for futures instrument</td>
+<td>underlying</td>
+<td>String</td>
+<td>(M)</td>
+<td>Mandatory for futures instrument</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">contractMultipler</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory for futures instrument</td>
+<td>contractMultipler</td>
+<td>Integer</td>
+<td>(M)</td>
+<td>Mandatory for futures instrument</td>
 </tr>
 </tbody>
 </table>
@@ -453,8 +453,8 @@ GET /api/public/instruments
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -478,10 +478,10 @@ GET /api/public/ticker
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. “BTCUSD”</td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td>e.g. “BTCUSD”</td>
 </tr>
 </tbody>
 </table>
@@ -499,58 +499,58 @@ GET /api/public/ticker
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. “BTCUSD”</td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td>e.g. “BTCUSD”</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">time</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>time</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">lastPrice</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>lastPrice</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">bestBid</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>bestBid</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">bestAsk</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>bestAsk</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">24hHigh</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>24hHigh</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">24hLow</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>24hLow</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">24hVolume</td>
-<td style="border: 1px solid #dfe2e5;">LongString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>24hVolume</td>
+<td>LongString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">24hChange</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>24hChange</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -566,8 +566,8 @@ GET /api/public/ticker
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -591,16 +591,16 @@ GET /api/public/orderbook
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. “BTCUSD”</td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td>e.g. “BTCUSD”</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">level</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"><p>1 - top bid and ask</p>
+<td>level</td>
+<td>Integer</td>
+<td>M</td>
+<td><p>1 - top bid and ask</p>
 <p>2 – order book</p>
 <p>3 – full order level book</p></td>
 </tr>
@@ -620,36 +620,36 @@ GET /api/public/orderbook
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">level</td>
-<td style="border: 1px solid #dfe2e5;">1/2/3</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>level</td>
+<td>1/2/3</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">sequence</td>
-<td style="border: 1px solid #dfe2e5;">LongString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>sequence</td>
+<td>LongString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">bids</td>
-<td style="border: 1px solid #dfe2e5;">Array of [price, size, numOfOrders/orderId]</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"><p>Level 1 – This is one sized array</p>
+<td>bids</td>
+<td>Array of [price, size, numOfOrders/orderId]</td>
+<td>M</td>
+<td><p>Level 1 – This is one sized array</p>
 <p>Level 2 – The aggregated size for each price level is returned with numOfOrders count for the price</p>
 <p>Level 3 – The order level information is returned</p></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">asks</td>
-<td style="border: 1px solid #dfe2e5;">Array of [price, size, numOfOrders/orderId]</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"><p>Level 1 – This is one sized array</p>
+<td>asks</td>
+<td>Array of [price, size, numOfOrders/orderId]</td>
+<td>M</td>
+<td><p>Level 1 – This is one sized array</p>
 <p>Level 2 – The aggregated size for each price level is returned with numOfOrders count for the price</p>
 <p>Level 3 – The order level information is returned</p></td>
 </tr>
@@ -667,8 +667,8 @@ GET /api/public/orderbook
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -692,10 +692,10 @@ GET /api/public/trades
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -713,34 +713,34 @@ GET /api/public/trades
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">time</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>time</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">tradeId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>tradeId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">price</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>price</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">size</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>size</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">side</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Buy/Sell</td>
+<td>side</td>
+<td>String</td>
+<td>M</td>
+<td>Buy/Sell</td>
 </tr>
 </tbody>
 </table>
@@ -756,8 +756,8 @@ GET /api/public/trades
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -783,28 +783,28 @@ It returns an array of data point stats.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">startTime</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>startTime</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">endTime</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>endTime</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">granularity</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"><p>In seconds; 60/300/900/3600/21600/86400;</p>
+<td>granularity</td>
+<td>Integer</td>
+<td>M</td>
+<td><p>In seconds; 60/300/900/3600/21600/86400;</p>
 <p>The combination of startTime, endTime and granularity determines how many data points obtained. The maximum supported number of data points is xxx</p></td>
 </tr>
 </tbody>
@@ -823,46 +823,46 @@ It returns an array of data point stats.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">startTime</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>startTime</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">endTime</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>endTime</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">openPrice</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>openPrice</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">closePrice</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>closePrice</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">low</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>low</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">high</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>high</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">volume</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>volume</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -878,8 +878,8 @@ It returns an array of data point stats.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -914,23 +914,23 @@ the most recent 2 days are included, the older cancelled orders are not.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">orderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>orderId</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">If not provided, orders for all symbols are returned</td>
+<td>instrumentId</td>
+<td>String</td>
+<td>O</td>
+<td>If not provided, orders for all symbols are returned</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">status</td>
-<td style="border: 1px solid #dfe2e5;"><p>Open, Executed,</p>
+<td>status</td>
+<td><p>Open, Executed,</p>
 <p>Partial Executed, Cancelled</p></td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">If not provided, orders for all status are returned</td>
+<td>O</td>
+<td>If not provided, orders for all status are returned</td>
 </tr>
 </tbody>
 </table>
@@ -948,109 +948,109 @@ the most recent 2 days are included, the older cancelled orders are not.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">orderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>orderId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">userAccount</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">User may have multiple accounts in firm user case.</td>
+<td>userAccount</td>
+<td>String</td>
+<td>M</td>
+<td>User may have multiple accounts in firm user case.</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">Market, Limit, Stop, StopLimit</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>type</td>
+<td>Market, Limit, Stop, StopLimit</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">price</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>price</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">size</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>size</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">side</td>
-<td style="border: 1px solid #dfe2e5;">Buy/Sell</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>side</td>
+<td>Buy/Sell</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">timeInForce</td>
-<td style="border: 1px solid #dfe2e5;">GTC, GTT, IOC, FOK</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>timeInForce</td>
+<td>GTC, GTT, IOC, FOK</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">orderTime</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>orderTime</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">stopPrice</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>stopPrice</td>
+<td>DoubleString</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">status</td>
-<td style="border: 1px solid #dfe2e5;">Open, Executed, Cancelled</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>status</td>
+<td>Open, Executed, Cancelled</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">executedSize</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>executedSize</td>
+<td>DoubleString</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">executedPrice</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>executedPrice</td>
+<td>DoubleString</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">postLiquidity</td>
-<td style="border: 1px solid #dfe2e5;">Boolean</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">True – order rest in the book initially</td>
+<td>postLiquidity</td>
+<td>Boolean</td>
+<td>M</td>
+<td>True – order rest in the book initially</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">fee</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>fee</td>
+<td>DoubleString</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">selfTradePrevention</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"><p>DC – Decrease and cancel</p>
+<td>selfTradePrevention</td>
+<td>String</td>
+<td>M</td>
+<td><p>DC – Decrease and cancel</p>
 <p>CO – Cancel oldest</p>
 <p>CN – Cancel newest</p>
 <p>CB – Cancel both</p></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">clientOrderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>clientOrderId</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1066,8 +1066,8 @@ the most recent 2 days are included, the older cancelled orders are not.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1091,16 +1091,16 @@ GET /api/private/ownTrades
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">orderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>orderId</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">If not provided, orders for all symbols are returned</td>
+<td>instrumentId</td>
+<td>String</td>
+<td>O</td>
+<td>If not provided, orders for all symbols are returned</td>
 </tr>
 </tbody>
 </table>
@@ -1118,52 +1118,52 @@ GET /api/private/ownTrades
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">time</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>time</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">tradeId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>tradeId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">userAccount</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>userAccount</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">price</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>price</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">size</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>size</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">side</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Buy/Sell</td>
+<td>side</td>
+<td>String</td>
+<td>M</td>
+<td>Buy/Sell</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">fee</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>fee</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">liquidity</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"><p>M – liquidity maker</p>
+<td>liquidity</td>
+<td>String</td>
+<td>M</td>
+<td><p>M – liquidity maker</p>
 <p>T – liquidity taker</p></td>
 </tr>
 </tbody>
@@ -1180,8 +1180,8 @@ GET /api/private/ownTrades
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1205,77 +1205,77 @@ POST /api/private/newOrder
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userAccount</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">User account used for this order</td>
+<td>userAccount</td>
+<td>String</td>
+<td>M</td>
+<td>User account used for this order</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">orderType</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Limit/Market/Stop/StopLimit</td>
+<td>orderType</td>
+<td>String</td>
+<td>M</td>
+<td>Limit/Market/Stop/StopLimit</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">price</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if order is non Market order</td>
+<td>price</td>
+<td>DoubleString</td>
+<td>(M)</td>
+<td>Mandatory if order is non Market order</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">size</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;"><p>Mandatory if order is non Market order</p>
+<td>size</td>
+<td>DoubleString</td>
+<td>(M)</td>
+<td><p>Mandatory if order is non Market order</p>
 <p>For Market order, the user can either provide size or amount in quote currency</p></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">amount</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Amount in quote currency to buy/sell</td>
+<td>amount</td>
+<td>DoubleString</td>
+<td>O</td>
+<td>Amount in quote currency to buy/sell</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">side</td>
-<td style="border: 1px solid #dfe2e5;">Buy/Sell</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>side</td>
+<td>Buy/Sell</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">timeInForce</td>
-<td style="border: 1px solid #dfe2e5;">GTC, GTT, IOC FOK</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>timeInForce</td>
+<td>GTC, GTT, IOC FOK</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">clientOrderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>clientOrderId</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">stopPrice</td>
-<td style="border: 1px solid #dfe2e5;">NumberString</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if orderType is Stop or StopLimit</td>
+<td>stopPrice</td>
+<td>NumberString</td>
+<td>(M)</td>
+<td>Mandatory if orderType is Stop or StopLimit</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">postOnly</td>
-<td style="border: 1px solid #dfe2e5;">Boolean</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Default to false. If any part of the order results in taking liquidity, the order will be rejected and no part of it will execute.</td>
+<td>postOnly</td>
+<td>Boolean</td>
+<td>O</td>
+<td>Default to false. If any part of the order results in taking liquidity, the order will be rejected and no part of it will execute.</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">selfTradePrevention</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"><p>Decrease and cancel (Default)</p>
+<td>selfTradePrevention</td>
+<td>String</td>
+<td>O</td>
+<td><p>Decrease and cancel (Default)</p>
 <p>Cancel oldest;</p>
 <p>Cancel newest;</p>
 <p>Cancel both;</p></td>
@@ -1296,16 +1296,16 @@ POST /api/private/newOrder
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">clientOrderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if clientOrderId is provided by the user</td>
+<td>clientOrderId</td>
+<td>String</td>
+<td>(M)</td>
+<td>Mandatory if clientOrderId is provided by the user</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">orderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">System generated unique order id</td>
+<td>orderId</td>
+<td>String</td>
+<td>M</td>
+<td>System generated unique order id</td>
 </tr>
 </tbody>
 </table>
@@ -1321,8 +1321,8 @@ POST /api/private/newOrder
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1346,16 +1346,16 @@ POST /api/private/cancelOrder
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">orderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>orderId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">clientOrderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>clientOrderId</td>
+<td>String</td>
+<td>(M)</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1373,16 +1373,16 @@ POST /api/private/cancelOrder
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">orderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if client order id is not provided</td>
+<td>orderId</td>
+<td>String</td>
+<td>(M)</td>
+<td>Mandatory if client order id is not provided</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">clientOrderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if order id is not provided</td>
+<td>clientOrderId</td>
+<td>String</td>
+<td>(M)</td>
+<td>Mandatory if order id is not provided</td>
 </tr>
 </tbody>
 </table>
@@ -1398,8 +1398,8 @@ POST /api/private/cancelOrder
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1423,10 +1423,10 @@ POST /api/private/cancelAllOrders
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">orderIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Orders that are cancelled in the system</td>
+<td>orderIds</td>
+<td>Array of Strings</td>
+<td>M</td>
+<td>Orders that are cancelled in the system</td>
 </tr>
 </tbody>
 </table>
@@ -1442,8 +1442,8 @@ POST /api/private/cancelAllOrders
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1467,10 +1467,10 @@ GET /api/private/accounts
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">userAccount</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Main account by default</td>
+<td>userAccount</td>
+<td>String</td>
+<td>O</td>
+<td>Main account by default</td>
 </tr>
 </tbody>
 </table>
@@ -1488,28 +1488,28 @@ GET /api/private/accounts
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">accountId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>accountId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">currency</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>currency</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">balance</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>balance</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">available</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>available</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1525,8 +1525,8 @@ GET /api/private/accounts
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1553,22 +1553,22 @@ account balance and available balance. Pagination is supported.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">accountId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>accountId</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">transactionType</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>transactionType</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">referenceId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>referenceId</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1586,64 +1586,64 @@ account balance and available balance. Pagination is supported.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">transactionId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>transactionId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userAccount</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>userAccount</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">accountId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>accountId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">currency</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>currency</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">transactionType</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Trade/Deposit/Withdraw/Fee/Rebate/Order/PendingWithdraw</td>
+<td>transactionType</td>
+<td>String</td>
+<td>M</td>
+<td>Trade/Deposit/Withdraw/Fee/Rebate/Order/PendingWithdraw</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">amount</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>amount</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">balance</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>balance</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">available</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>available</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">timestamp</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>timestamp</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">referenceId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"><p>Additional information</p>
+<td>referenceId</td>
+<td>String</td>
+<td>M</td>
+<td><p>Additional information</p>
 <p>Trade – {tradeId}</p>
 <p>Withdraw – {withdrawId}</p>
 <p>Fee – {tradeId or withdrawId}</p>
@@ -1664,8 +1664,8 @@ account balance and available balance. Pagination is supported.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1689,22 +1689,22 @@ POST /api/private/withdraw
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">accountId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>accountId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">amount</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>amount</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">address</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">bankId or cryto address</td>
+<td>address</td>
+<td>String</td>
+<td>M</td>
+<td>bankId or cryto address</td>
 </tr>
 </tbody>
 </table>
@@ -1722,10 +1722,10 @@ POST /api/private/withdraw
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">withdrawId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>withdrawId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1741,8 +1741,8 @@ POST /api/private/withdraw
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1781,22 +1781,22 @@ Error codes are documented in related sections.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">error</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Error message type</td>
+<td>type</td>
+<td>error</td>
+<td>M</td>
+<td>Error message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if userMessageId is provided in the user request</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>(M)</td>
+<td>Mandatory if userMessageId is provided in the user request</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">errorCode</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Error code</td>
+<td>errorCode</td>
+<td>String</td>
+<td>M</td>
+<td>Error code</td>
 </tr>
 </tbody>
 </table>
@@ -1823,28 +1823,28 @@ Public Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribe</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribe</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">ticker</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>ticker</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Unique message id for this websocket session</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>O</td>
+<td>Unique message id for this websocket session</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">instrumentIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of instrumentId Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentIds</td>
+<td>Array of instrumentId Strings</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1862,28 +1862,28 @@ Public Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribed</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribed</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">ticker</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>ticker</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of instrumentId Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentIds</td>
+<td>Array of instrumentId Strings</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if userMessageId is provided in the user request</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>(M)</td>
+<td>Mandatory if userMessageId is provided in the user request</td>
 </tr>
 </tbody>
 </table>
@@ -1901,64 +1901,64 @@ Public Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">ticker</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>type</td>
+<td>ticker</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. “BTCUSD”</td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td>e.g. “BTCUSD”</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">time</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>time</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">lastPrice</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>lastPrice</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">bestBid</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>bestBid</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">bestAsk</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>bestAsk</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">24hHigh</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>24hHigh</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">24hLow</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>24hLow</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">24hVolume</td>
-<td style="border: 1px solid #dfe2e5;">LongString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>24hVolume</td>
+<td>LongString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">24hChange</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>24hChange</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1974,8 +1974,8 @@ Public Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1997,34 +1997,34 @@ Public Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribe</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribe</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">orderBook</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>orderBook</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">depth</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Default to 25</td>
+<td>depth</td>
+<td>Integer</td>
+<td>O</td>
+<td>Default to 25</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">instrumentIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of instrumentId Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentIds</td>
+<td>Array of instrumentId Strings</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Unique message id for this websocket session</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>O</td>
+<td>Unique message id for this websocket session</td>
 </tr>
 </tbody>
 </table>
@@ -2042,34 +2042,34 @@ Public Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribed</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribed</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">orderBook</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>orderBook</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">depth</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>depth</td>
+<td>Integer</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">instrumentIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of instrumentId Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentIds</td>
+<td>Array of instrumentId Strings</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if userMessageId is provided in the user request</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>(M)</td>
+<td>Mandatory if userMessageId is provided in the user request</td>
 </tr>
 </tbody>
 </table>
@@ -2086,29 +2086,29 @@ Public Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">orderBook</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>type</td>
+<td>orderBook</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentId</td>
+<td>String</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">time</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>time</td>
+<td>Timestamp</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">bids</td>
-<td style="border: 1px solid #dfe2e5;">Array of [price, size, numOfOrders]</td>
-<td style="border: 1px solid #dfe2e5;">The aggregated size for each price level is returned with numOfOrders count for the price</td>
+<td>bids</td>
+<td>Array of [price, size, numOfOrders]</td>
+<td>The aggregated size for each price level is returned with numOfOrders count for the price</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">asks</td>
-<td style="border: 1px solid #dfe2e5;">Array of [price, size, numOfOrders]</td>
-<td style="border: 1px solid #dfe2e5;">The aggregated size for each price level is returned with numOfOrders count for the price</td>
+<td>asks</td>
+<td>Array of [price, size, numOfOrders]</td>
+<td>The aggregated size for each price level is returned with numOfOrders count for the price</td>
 </tr>
 </tbody>
 </table>
@@ -2127,8 +2127,8 @@ subscribes for. The subsequent messages only contain the updates.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -2150,28 +2150,28 @@ subscribes for. The subsequent messages only contain the updates.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribe</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribe</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">fullOrderBook</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>fullOrderBook</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of instrumentId Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentIds</td>
+<td>Array of instrumentId Strings</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Unique message id for this websocket session</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>O</td>
+<td>Unique message id for this websocket session</td>
 </tr>
 </tbody>
 </table>
@@ -2189,28 +2189,28 @@ subscribes for. The subsequent messages only contain the updates.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribed</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribed</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">fullOrderBook</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>fullOrderBook</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of instrumentId Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentIds</td>
+<td>Array of instrumentId Strings</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if userMessageId is provided in the user request</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>(M)</td>
+<td>Mandatory if userMessageId is provided in the user request</td>
 </tr>
 </tbody>
 </table>
@@ -2228,52 +2228,52 @@ subscribes for. The subsequent messages only contain the updates.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">fullOrderBook</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>type</td>
+<td>fullOrderBook</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">orderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>orderId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">price</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>price</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">remainingSize</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>remainingSize</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">status</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>status</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">side</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>side</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">sequence</td>
-<td style="border: 1px solid #dfe2e5;">LongString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>sequence</td>
+<td>LongString</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -2300,8 +2300,8 @@ Sequence to process full order book:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -2323,28 +2323,28 @@ Sequence to process full order book:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribe</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribe</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">trades</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>trades</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of instrumentId Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentIds</td>
+<td>Array of instrumentId Strings</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Unique message id for this websocket session</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>O</td>
+<td>Unique message id for this websocket session</td>
 </tr>
 </tbody>
 </table>
@@ -2362,28 +2362,28 @@ Sequence to process full order book:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribed</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribed</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">trade</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>trade</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of instrumentId Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentIds</td>
+<td>Array of instrumentId Strings</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if userMessageId is provided in the user request</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>(M)</td>
+<td>Mandatory if userMessageId is provided in the user request</td>
 </tr>
 </tbody>
 </table>
@@ -2401,40 +2401,40 @@ Sequence to process full order book:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">trades</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>type</td>
+<td>trades</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">time</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>time</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">tradeId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>tradeId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">price</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>price</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">size</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>size</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">side</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Buy/Sell</td>
+<td>side</td>
+<td>String</td>
+<td>M</td>
+<td>Buy/Sell</td>
 </tr>
 </tbody>
 </table>
@@ -2450,8 +2450,8 @@ Sequence to process full order book:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -2473,28 +2473,28 @@ Sequence to process full order book:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribe</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribe</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">charts</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>charts</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of instrumentId Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentIds</td>
+<td>Array of instrumentId Strings</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Unique message id for this websocket session</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>O</td>
+<td>Unique message id for this websocket session</td>
 </tr>
 </tbody>
 </table>
@@ -2512,28 +2512,28 @@ Sequence to process full order book:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribed</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribed</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">charts</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>charts</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of instrumentId Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentIds</td>
+<td>Array of instrumentId Strings</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if userMessageId is provided in the user request</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>(M)</td>
+<td>Mandatory if userMessageId is provided in the user request</td>
 </tr>
 </tbody>
 </table>
@@ -2551,46 +2551,46 @@ Sequence to process full order book:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">charts</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>type</td>
+<td>charts</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">startTime</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>startTime</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">openPrice</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>openPrice</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">closePrice</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>closePrice</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">low</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>low</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">high</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>high</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">volume</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>volume</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -2609,8 +2609,8 @@ entries with the size of 60.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -2637,110 +2637,110 @@ Private Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">apiKey</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>apiKey</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">signature</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>signature</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">passPhrase</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>passPhrase</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">newOrder</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>type</td>
+<td>newOrder</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userAccount</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">User account used for this order</td>
+<td>userAccount</td>
+<td>String</td>
+<td>M</td>
+<td>User account used for this order</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">orderType</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Limit/Market/Stop/StopLimit</td>
+<td>orderType</td>
+<td>String</td>
+<td>M</td>
+<td>Limit/Market/Stop/StopLimit</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">price</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if order is non Market order</td>
+<td>price</td>
+<td>DoubleString</td>
+<td>(M)</td>
+<td>Mandatory if order is non Market order</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">size</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;"><p>Mandatory if order is non Market order</p>
+<td>size</td>
+<td>DoubleString</td>
+<td>(M)</td>
+<td><p>Mandatory if order is non Market order</p>
 <p>For Market order, the user can either provide size or amount in quote currency</p></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">amount</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Amount in quote currency to buy/sell</td>
+<td>amount</td>
+<td>DoubleString</td>
+<td>O</td>
+<td>Amount in quote currency to buy/sell</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">side</td>
-<td style="border: 1px solid #dfe2e5;">Buy/Sell</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>side</td>
+<td>Buy/Sell</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">timeInForce</td>
-<td style="border: 1px solid #dfe2e5;">GTC, GTT, IOC FOK</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>timeInForce</td>
+<td>GTC, GTT, IOC FOK</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">clientOrderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>clientOrderId</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">stopPrice</td>
-<td style="border: 1px solid #dfe2e5;">NumberString</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if orderType is Stop or StopLimit</td>
+<td>stopPrice</td>
+<td>NumberString</td>
+<td>(M)</td>
+<td>Mandatory if orderType is Stop or StopLimit</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">postOnly</td>
-<td style="border: 1px solid #dfe2e5;">Boolean</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Default to false. If any part of the order results in taking liquidity, the order will be rejected and no part of it will execute.</td>
+<td>postOnly</td>
+<td>Boolean</td>
+<td>O</td>
+<td>Default to false. If any part of the order results in taking liquidity, the order will be rejected and no part of it will execute.</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">selfTradePrevention</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"><p>Decrease and cancel (Default)</p>
+<td>selfTradePrevention</td>
+<td>String</td>
+<td>O</td>
+<td><p>Decrease and cancel (Default)</p>
 <p>Cancel oldest;</p>
 <p>Cancel newest;</p>
 <p>Cancel both;</p></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Unique message id for this websocket session</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>O</td>
+<td>Unique message id for this websocket session</td>
 </tr>
 </tbody>
 </table>
@@ -2756,8 +2756,8 @@ Private Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -2779,46 +2779,46 @@ Private Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">apiKey</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>apiKey</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">signature</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>signature</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">passPhrase</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>passPhrase</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">cancelOrder</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>type</td>
+<td>cancelOrder</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">orderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>orderId</td>
+<td>String</td>
+<td>(M)</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">clientOrderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>clientOrderId</td>
+<td>String</td>
+<td>(M)</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Unique message id for this websocket session</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>O</td>
+<td>Unique message id for this websocket session</td>
 </tr>
 </tbody>
 </table>
@@ -2834,8 +2834,8 @@ Private Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -2857,52 +2857,52 @@ Private Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">apiKey</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>apiKey</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">signature</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>signature</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">passPhrase</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>passPhrase</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribe</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribe</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">orderUpdate</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>orderUpdate</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">instrumentIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of instrumentId Strings</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe all instruments by default</td>
+<td>instrumentIds</td>
+<td>Array of instrumentId Strings</td>
+<td>O</td>
+<td>Subscribe/Unsubscribe all instruments by default</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">numberOfSnapshotRecords</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Max recent number of open orders returned. All open orders will be returned if not specified.</td>
+<td>numberOfSnapshotRecords</td>
+<td>Integer</td>
+<td>O</td>
+<td>Max recent number of open orders returned. All open orders will be returned if not specified.</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Unique message id for this websocket session</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>O</td>
+<td>Unique message id for this websocket session</td>
 </tr>
 </tbody>
 </table>
@@ -2920,34 +2920,34 @@ Private Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribed</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribed</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">orderUpdate</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>orderUpdate</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">instrumentIds</td>
-<td style="border: 1px solid #dfe2e5;">Array of instrumentId Strings</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Subscribed/Unsubscribed for all instruments by default</td>
+<td>instrumentIds</td>
+<td>Array of instrumentId Strings</td>
+<td>O</td>
+<td>Subscribed/Unsubscribed for all instruments by default</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">openOrders</td>
-<td style="border: 1px solid #dfe2e5;">Array of orders Json Fields</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>openOrders</td>
+<td>Array of orders Json Fields</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if userMessageId is provided in the user request</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>(M)</td>
+<td>Mandatory if userMessageId is provided in the user request</td>
 </tr>
 </tbody>
 </table>
@@ -2965,116 +2965,116 @@ Private Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">orderUpdate</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>type</td>
+<td>orderUpdate</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">orderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>orderId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">subaccount</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>subaccount</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">instrumentId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>instrumentId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">Market, Limit, Stop, StopLimit</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>type</td>
+<td>Market, Limit, Stop, StopLimit</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">price</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>price</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">size</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>size</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">side</td>
-<td style="border: 1px solid #dfe2e5;">Buy/Sell</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>side</td>
+<td>Buy/Sell</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">timeInForce</td>
-<td style="border: 1px solid #dfe2e5;">GTC, GTT, IOC, FOK</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>timeInForce</td>
+<td>GTC, GTT, IOC, FOK</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">orderTime</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>orderTime</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">stopPrice</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>stopPrice</td>
+<td>DoubleString</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">status</td>
-<td style="border: 1px solid #dfe2e5;"><p>Open,</p>
+<td>status</td>
+<td><p>Open,</p>
 <p>Partially Filled, Filled, Cancelled</p></td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">executedSize</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>executedSize</td>
+<td>DoubleString</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">executedPrice</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>executedPrice</td>
+<td>DoubleString</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">postLiquidity</td>
-<td style="border: 1px solid #dfe2e5;">Boolean</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">True – order rest in the book initially</td>
+<td>postLiquidity</td>
+<td>Boolean</td>
+<td>M</td>
+<td>True – order rest in the book initially</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">fee</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>fee</td>
+<td>DoubleString</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">selfTradePrevention</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"><p>DC – Decrease and cancel</p>
+<td>selfTradePrevention</td>
+<td>String</td>
+<td>M</td>
+<td><p>DC – Decrease and cancel</p>
 <p>CO – Cancel oldest</p>
 <p>CN – Cancel newest</p>
 <p>CB – Cancel both</p></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">clientOrderId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>clientOrderId</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3090,8 +3090,8 @@ Private Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3113,46 +3113,46 @@ Private Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">apiKey</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>apiKey</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">signature</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>signature</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribe</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribe</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">accountUpdate</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>accountUpdate</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">currencies</td>
-<td style="border: 1px solid #dfe2e5;">Array of currency Strings</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe for all currencies by default</td>
+<td>currencies</td>
+<td>Array of currency Strings</td>
+<td>O</td>
+<td>Subscribe for all currencies by default</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">numberOfRecentTransactions</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Default to 100</td>
+<td>numberOfRecentTransactions</td>
+<td>Integer</td>
+<td>O</td>
+<td>Default to 100</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">Unique message id for this websocket session</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>O</td>
+<td>Unique message id for this websocket session</td>
 </tr>
 </tbody>
 </table>
@@ -3170,40 +3170,40 @@ Private Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">subscribed</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Subscribe/Unsubscribe message type</td>
+<td>type</td>
+<td>subscribed</td>
+<td>M</td>
+<td>Subscribe/Unsubscribe message type</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">channel</td>
-<td style="border: 1px solid #dfe2e5;">accounts</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>channel</td>
+<td>accounts</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">currencies</td>
-<td style="border: 1px solid #dfe2e5;">Array of currency Strings</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>currencies</td>
+<td>Array of currency Strings</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">accountBalances</td>
-<td style="border: 1px solid #dfe2e5;">Array of account balances (accountId, currency, balance, availableBalance)</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>accountBalances</td>
+<td>Array of account balances (accountId, currency, balance, availableBalance)</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">recentAccountUpdates</td>
-<td style="border: 1px solid #dfe2e5;">Array of recent accountUpdate Json fields</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>recentAccountUpdates</td>
+<td>Array of recent accountUpdate Json fields</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userMessageId</td>
-<td style="border: 1px solid #dfe2e5;">Integer</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if userMessageId is provided in the user request</td>
+<td>userMessageId</td>
+<td>Integer</td>
+<td>(M)</td>
+<td>Mandatory if userMessageId is provided in the user request</td>
 </tr>
 </tbody>
 </table>
@@ -3221,70 +3221,70 @@ Private Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">type</td>
-<td style="border: 1px solid #dfe2e5;">accountUpdate</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>type</td>
+<td>accountUpdate</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">userAccount</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>userAccount</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">transactionId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>transactionId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">accountId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>accountId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">currency</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>currency</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">transactionType</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Trade/Deposit/Withdraw/Fee/Rebate/Order/PendingWithdraw</td>
+<td>transactionType</td>
+<td>String</td>
+<td>M</td>
+<td>Trade/Deposit/Withdraw/Fee/Rebate/Order/PendingWithdraw</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">amount</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>amount</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">balance</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>balance</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">available</td>
-<td style="border: 1px solid #dfe2e5;">DoubleString</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>available</td>
+<td>DoubleString</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">timestamp</td>
-<td style="border: 1px solid #dfe2e5;">Timestamp</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>timestamp</td>
+<td>Timestamp</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">referenceId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"><p>Additional information</p>
+<td>referenceId</td>
+<td>String</td>
+<td>M</td>
+<td><p>Additional information</p>
 <p>Trade – {tradeId}</p>
 <p>Withdraw – {withdrawId}</p>
 <p>Fee – {tradeId or withdrawId}</p>
@@ -3305,8 +3305,8 @@ Private Channels
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3340,22 +3340,22 @@ POST /api/public/register
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">username</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">email as default</td>
+<td>username</td>
+<td>String</td>
+<td>O</td>
+<td>email as default</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">email</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>email</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">Password</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Secured password</td>
+<td>Password</td>
+<td>String</td>
+<td>M</td>
+<td>Secured password</td>
 </tr>
 </tbody>
 </table>
@@ -3373,16 +3373,16 @@ POST /api/public/register
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">registrationStatus</td>
-<td style="border: 1px solid #dfe2e5;">“true”</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">email as default</td>
+<td>registrationStatus</td>
+<td>“true”</td>
+<td>M</td>
+<td>email as default</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">messageCode</td>
-<td style="border: 1px solid #dfe2e5;">“CHECK_EMAIL_TO_CONFIRM”</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">Check email to confirm the registration</td>
+<td>messageCode</td>
+<td>“CHECK_EMAIL_TO_CONFIRM”</td>
+<td>M</td>
+<td>Check email to confirm the registration</td>
 </tr>
 </tbody>
 </table>
@@ -3398,24 +3398,24 @@ POST /api/public/register
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">USERNAME_IN_USE</td>
-<td style="border: 1px solid #dfe2e5;">User name has been in use</td>
+<td>USERNAME_IN_USE</td>
+<td>User name has been in use</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">EMAIL_IN_USE</td>
-<td style="border: 1px solid #dfe2e5;">User with the same email has already been registered and is active.</td>
+<td>EMAIL_IN_USE</td>
+<td>User with the same email has already been registered and is active.</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">EMAIL_REGISTERED_NON_ACTIVE</td>
-<td style="border: 1px solid #dfe2e5;">User with the same email has already been registered, but is not active.</td>
+<td>EMAIL_REGISTERED_NON_ACTIVE</td>
+<td>User with the same email has already been registered, but is not active.</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">BAD_PASSWORD</td>
-<td style="border: 1px solid #dfe2e5;">Provided password does not meet the requirements</td>
+<td>BAD_PASSWORD</td>
+<td>Provided password does not meet the requirements</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3439,22 +3439,22 @@ POST /api/public/login
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">username</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">User either provide username or email</td>
+<td>username</td>
+<td>String</td>
+<td>(M)</td>
+<td>User either provide username or email</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">email</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>email</td>
+<td>String</td>
+<td>(M)</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">password</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>password</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3472,10 +3472,10 @@ POST /api/public/login
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">sessionToken</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>sessionToken</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3491,8 +3491,8 @@ POST /api/public/login
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3516,10 +3516,10 @@ GET /api/public/securityQuestions
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">securityQuestions</td>
-<td style="border: 1px solid #dfe2e5;">An array of Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. [“What is the name of your favorite movie”]</td>
+<td>securityQuestions</td>
+<td>An array of Strings</td>
+<td>M</td>
+<td>e.g. [“What is the name of your favorite movie”]</td>
 </tr>
 </tbody>
 </table>
@@ -3535,8 +3535,8 @@ GET /api/public/securityQuestions
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3560,22 +3560,22 @@ POST /api/public/resetPassword
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">username</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">User either provide username or email</td>
+<td>username</td>
+<td>String</td>
+<td>(M)</td>
+<td>User either provide username or email</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">email</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>email</td>
+<td>String</td>
+<td>(M)</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">securityAnswers</td>
-<td style="border: 1px solid #dfe2e5;">An array of Json objects</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. [{“What is the name of your favorite movie”:”Forrest Gump”}]</td>
+<td>securityAnswers</td>
+<td>An array of Json objects</td>
+<td>M</td>
+<td>e.g. [{“What is the name of your favorite movie”:”Forrest Gump”}]</td>
 </tr>
 </tbody>
 </table>
@@ -3591,8 +3591,8 @@ POST /api/public/resetPassword
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3614,10 +3614,10 @@ POST /api/public/resetPassword
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">email</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>email</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3633,12 +3633,12 @@ POST /api/public/resetPassword
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">EMAIL_IN_USE</td>
-<td style="border: 1px solid #dfe2e5;">User with the same email has already been registered and is active.</td>
+<td>EMAIL_IN_USE</td>
+<td>User with the same email has already been registered and is active.</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3674,22 +3674,22 @@ POST /api/private/desposit/{currency}
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">currency</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>currency</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">address</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if currency is non-fiat currency</td>
+<td>address</td>
+<td>String</td>
+<td>(M)</td>
+<td>Mandatory if currency is non-fiat currency</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">despositInstruction</td>
-<td style="border: 1px solid #dfe2e5;">A Json Object</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory is currency is fiat currency</td>
+<td>despositInstruction</td>
+<td>A Json Object</td>
+<td>(M)</td>
+<td>Mandatory is currency is fiat currency</td>
 </tr>
 </tbody>
 </table>
@@ -3705,8 +3705,8 @@ POST /api/private/desposit/{currency}
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3730,28 +3730,28 @@ POST /api/private/updateProfile
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">email</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>email</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">username</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>username</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">oldPassword</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">(M)</td>
-<td style="border: 1px solid #dfe2e5;">Mandatory if newPassword is provided</td>
+<td>oldPassword</td>
+<td>String</td>
+<td>(M)</td>
+<td>Mandatory if newPassword is provided</td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">newPassword</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>newPassword</td>
+<td>String</td>
+<td>O</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3767,8 +3767,8 @@ POST /api/private/updateProfile
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3792,22 +3792,22 @@ POST /api/private/apiKeys/new
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">name</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>name</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">permissions</td>
-<td style="border: 1px solid #dfe2e5;">A JSON object</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. {“accounts”:{“read”: true, “write”: “false”}, “orders”:{“read”: “true”, “write”:”true”}}</td>
+<td>permissions</td>
+<td>A JSON object</td>
+<td>M</td>
+<td>e.g. {“accounts”:{“read”: true, “write”: “false”}, “orders”:{“read”: “true”, “write”:”true”}}</td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">userAccount</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">O</td>
-<td style="border: 1px solid #dfe2e5;">associated user account</td>
+<td>userAccount</td>
+<td>String</td>
+<td>O</td>
+<td>associated user account</td>
 </tr>
 </tbody>
 </table>
@@ -3825,22 +3825,22 @@ POST /api/private/apiKeys/new
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">name</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>name</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">apiKey</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>apiKey</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">secret</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>secret</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3856,8 +3856,8 @@ POST /api/private/apiKeys/new
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3881,10 +3881,10 @@ GET /api/private/apiKeys
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">keys</td>
-<td style="border: 1px solid #dfe2e5;">An array of Json Objects with apiKey, userAccount and permissions</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. [{“key”:”bot”, “userAccount”:”main”, “permissions”: {“accounts”:{“read”: true, “write”: “false”}, “orders”:{“read”: “true”, “write”:”true”}}}]</td>
+<td>keys</td>
+<td>An array of Json Objects with apiKey, userAccount and permissions</td>
+<td>M</td>
+<td>e.g. [{“key”:”bot”, “userAccount”:”main”, “permissions”: {“accounts”:{“read”: true, “write”: “false”}, “orders”:{“read”: “true”, “write”:”true”}}}]</td>
 </tr>
 </tbody>
 </table>
@@ -3906,8 +3906,8 @@ DELETE /api/private/apiKeys/{apiKey name}
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3931,10 +3931,10 @@ POST /api/private/enableAuthenticator
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">seed</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>seed</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3950,8 +3950,8 @@ POST /api/private/enableAuthenticator
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3975,16 +3975,16 @@ GET /api/private/kycRequirements
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">requiredFields</td>
-<td style="border: 1px solid #dfe2e5;">A Json Object String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>requiredFields</td>
+<td>A Json Object String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">requiredFiles</td>
-<td style="border: 1px solid #dfe2e5;">Array of Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">e.g. [“ID”, “Proof of Address”, “Proof of ID Holder”]</td>
+<td>requiredFiles</td>
+<td>Array of Strings</td>
+<td>M</td>
+<td>e.g. [“ID”, “Proof of Address”, “Proof of ID Holder”]</td>
 </tr>
 </tbody>
 </table>
@@ -4000,8 +4000,8 @@ GET /api/private/kycRequirements
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -4023,16 +4023,16 @@ GET /api/private/kycRequirements
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">requiredFields</td>
-<td style="border: 1px solid #dfe2e5;">A Json Object String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>requiredFields</td>
+<td>A Json Object String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">requiredFiles</td>
-<td style="border: 1px solid #dfe2e5;">A JSON object</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>requiredFiles</td>
+<td>A JSON object</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -4056,10 +4056,10 @@ POST /api/private/userAccounts /new
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">name</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>name</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -4075,8 +4075,8 @@ POST /api/private/userAccounts /new
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -4100,10 +4100,10 @@ GET /api/private/userAccounts
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">userAccounts</td>
-<td style="border: 1px solid #dfe2e5;">Array of Strings</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">List of userAccounts associated with this user</td>
+<td>userAccounts</td>
+<td>Array of Strings</td>
+<td>M</td>
+<td>List of userAccounts associated with this user</td>
 </tr>
 </tbody>
 </table>
@@ -4125,8 +4125,8 @@ DELETE /api/private/userAccounts/{userAccount name}
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -4148,34 +4148,34 @@ DELETE /api/private/userAccounts/{userAccount name}
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">name</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>name</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">owner</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>owner</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">accountNumber</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>accountNumber</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="border: 1px solid #dfe2e5;">bankAddress</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>bankAddress</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">swiftCode</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>swiftCode</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -4193,10 +4193,10 @@ DELETE /api/private/userAccounts/{userAccount name}
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">bankId</td>
-<td style="border: 1px solid #dfe2e5;">String</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td>bankId</td>
+<td>String</td>
+<td>M</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -4212,8 +4212,8 @@ DELETE /api/private/userAccounts/{userAccount name}
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;"></td>
-<td style="border: 1px solid #dfe2e5;"></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -4237,10 +4237,10 @@ GET /api/private/bankAccounts
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border: 1px solid #dfe2e5;">bankAccounts</td>
-<td style="border: 1px solid #dfe2e5;">Array of Json Objects</td>
-<td style="border: 1px solid #dfe2e5;">M</td>
-<td style="border: 1px solid #dfe2e5;">List of userAccounts associated with this user. e.g. [{“bankId”:”xxxx”, “name”:”xxx”, “owner”:”xxxx”, “accountNumber”:”xxxx”, “bankAddress”:”xxxx”, “swiftCode”:”xxxx”}]</td>
+<td>bankAccounts</td>
+<td>Array of Json Objects</td>
+<td>M</td>
+<td>List of userAccounts associated with this user. e.g. [{“bankId”:”xxxx”, “name”:”xxx”, “owner”:”xxxx”, “accountNumber”:”xxxx”, “bankAddress”:”xxxx”, “swiftCode”:”xxxx”}]</td>
 </tr>
 </tbody>
 </table>
